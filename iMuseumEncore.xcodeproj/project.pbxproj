@@ -12,6 +12,8 @@
 		F5E3FB181E758D510043839B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3FB161E758D510043839B /* Main.storyboard */; };
 		F5E3FB1A1E758D510043839B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E3FB191E758D510043839B /* Assets.xcassets */; };
 		F5E3FB1D1E758D510043839B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E3FB1B1E758D510043839B /* LaunchScreen.storyboard */; };
+		F5E3FB251E758D9C0043839B /* ThisMuseum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3FB241E758D9C0043839B /* ThisMuseum.swift */; };
+		F5E3FB271E758F090043839B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3FB261E758F090043839B /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F5E3FB191E758D510043839B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E3FB1C1E758D510043839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E3FB1E1E758D510043839B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E3FB241E758D9C0043839B /* ThisMuseum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThisMuseum.swift; path = ../ThisMuseum.swift; sourceTree = "<group>"; };
+		F5E3FB261E758F090043839B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				F5E3FB121E758D510043839B /* AppDelegate.swift */,
 				F5E3FB141E758D510043839B /* ViewController.swift */,
+				F5E3FB261E758F090043839B /* Reachability.swift */,
 				F5E3FB161E758D510043839B /* Main.storyboard */,
 				F5E3FB191E758D510043839B /* Assets.xcassets */,
 				F5E3FB1B1E758D510043839B /* LaunchScreen.storyboard */,
 				F5E3FB1E1E758D510043839B /* Info.plist */,
+				F5E3FB241E758D9C0043839B /* ThisMuseum.swift */,
 			);
 			path = iMuseumEncore;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E3FB251E758D9C0043839B /* ThisMuseum.swift in Sources */,
 				F5E3FB151E758D510043839B /* ViewController.swift in Sources */,
+				F5E3FB271E758F090043839B /* Reachability.swift in Sources */,
 				F5E3FB131E758D510043839B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
